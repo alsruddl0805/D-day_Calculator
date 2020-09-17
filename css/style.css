@@ -1,0 +1,137 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
+
+* {
+    font-family: 'Gaegu', sans-serif;
+}
+
+div#wrap {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+/*div#header 시작*/
+
+div#header {
+    height: 200px;
+    margin: 0 auto;
+    display:flex;
+}
+
+div#color1, div#color2,div#color3 {
+    width: 220px;
+    border-radius: 200px 100px 200px 150px / 200px 150px 150px 100px;
+    position: relative;
+}
+
+div#color1 {
+    background-color: lavender;
+    opacity: 0.9;
+    left: 320px;
+ }
+
+ div#color2 {
+     background-color: lightpink;
+     opacity: 0.4;
+     left: 270px;
+}
+
+ div#color3 {
+    background-color: peachpuff;
+    opacity: 0.6;
+    left: 210px;
+ }
+
+ div#header p {
+     font-size: 100px;
+     color: #fff;
+     position: relative;
+     left: -190px;
+     top: -60px;
+ }
+
+/*div#header 종료*/
+
+/*div#Dday 시작*/
+
+div#Dday {
+    height: 600px;
+    display: flex;
+    margin: 0 auto;
+}
+
+/*div#dayArea 시작*/
+
+div#dayArea {
+    width: 700px;
+    color: #fff;
+}
+
+div#dayCircle {
+    width: 600px;
+    height: 500px;
+    text-align: center;
+    border-radius: 300px 400px 250px 350px / 300px;
+    background-color: rgba(255, 182, 193, 0.6);
+    margin: 50px 0 0 70px;
+}
+
+div#dayCircle p {
+    margin: 0;
+    font-size: 45px;
+    padding: 160px 0 50px;
+}
+
+div#dayCircle input {
+    border: none;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    color: #888;
+    font-size: 18px;
+    outline: none;
+}
+
+div#dayCircle button {
+    border: none;
+    border-radius: 50px;
+    font-size: 50px;
+    background-color: rgba(255,255,255,0.0);
+    color: #fff;
+    margin: 60px 0 0 300px;
+    outline: none;
+    cursor: pointer;
+}
+
+div#dayCircle button:hover {
+    color: tomato;
+}
+
+/*div#dayArea 종료*/
+
+/*div#gapArea 시작*/
+
+div#gapArea {
+    width: 500px;
+}
+
+div#gapCircle {
+    width: 400px;
+    height: 350px;
+    text-align: center;
+    border-radius: 350px 300px 400px 300px;
+    background-color: lavender;
+    margin: 220px 0 0 20px;
+}
+
+div#gapCircle div#gapResult {
+    font-size: 70px;
+    color: plum;
+    padding: 130px 0 0;
+}
+
+/*div#gapArea 종료*/
+
+/*div#Dday 종료*/
