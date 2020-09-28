@@ -12,7 +12,9 @@ function result() {
     var gapDate = gap.getTime();
 
     var Dday = nowDate - gapDate;
-    var DdayCal = Math.ceil(Dday / (24*60*60*1000));
+    var DdayCal = Math.floor(Dday / (1000*60*60*24));
+
+    document.querySelector("#gapResult").innerText = DdayCal;
 }
 
 resBtn.addEventListener('click',result);
